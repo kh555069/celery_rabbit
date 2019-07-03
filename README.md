@@ -6,7 +6,11 @@ RabbitMQ + Celery 分散式爬蟲
 
 1. 安裝 RabbitMQ https://www.rabbitmq.com/download.html
 
+2. `pip install -r pkg.txt`
+
 ## start
+`rabbitmq-server`
+
 `python start.py`
 
 `celery -A worker worker --loglevel=info`
