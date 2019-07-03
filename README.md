@@ -4,8 +4,11 @@
 # celery_rabbit
 RabbitMQ + Celery 分散式爬蟲
 
-安裝 RabbitMQ
+1. 安裝 RabbitMQ
+
+## start
 `python start.py`
+
 `celery -A worker worker --loglevel=info`
 
 ![image](https://github.com/kh555069/celery_rabbit/blob/master/celery_rabbit1.png)
