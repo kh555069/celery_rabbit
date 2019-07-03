@@ -4,7 +4,7 @@
 # celery_rabbit
 RabbitMQ + Celery 分散式爬蟲
 
-1. 安裝 RabbitMQ
+1. 安裝 RabbitMQ https://www.rabbitmq.com/download.html
 
 ## start
 `python start.py`
