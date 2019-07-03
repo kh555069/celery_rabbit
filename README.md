@@ -8,5 +8,5 @@ RabbitMQ + Celery 分散式爬蟲
 `python start.py`
 `celery -A worker worker --loglevel=info`
 
-![image](https://github.com/kh555069/ptt_forsale/blob/master/celery_rabbit1.png)
-![image](https://github.com/kh555069/ptt_forsale/blob/master/celery_rabbit2.png)
+![image](https://github.com/kh555069/celery_rabbit/blob/master/celery_rabbit1.png)
+![image](https://github.com/kh555069/celery_rabbit/blob/master/celery_rabbit2.png)
