@@ -12,14 +12,10 @@ RabbitMQ: MQ 是訊息佇列 Message Queue 的縮寫，負責接收與轉發訊�
 
 
 ## Install
-1. 安裝 RabbitMQ https://www.rabbitmq.com/download.html
-
-`sudo apt-get update`
-
-`sudo apt-get install erlang`
-
-`sudo apt-get install rabbitmq-server`
-
+1. 安裝 RabbitMQ https://www.rabbitmq.com/download.html<br></br>
+`sudo apt-get update`<br></br>
+`sudo apt-get install erlang`<br></br>
+`sudo apt-get install rabbitmq-server`<br></br>
 
 2. `pip install -r pkg.txt`
 
