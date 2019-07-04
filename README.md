@@ -6,9 +6,9 @@ RabbitMQ + Celery 分散式爬蟲
 
 簡單介紹一下，Celery 跟 RabbitMQ
 
-Celery: 扮演著發送(Producer)以及處理(Worker)的角色，將工作發送到 Broker ，從 Broker ，取出工作來處理
+*Celery*: 扮演著發送(Producer)以及處理(Worker)的角色，將工作發送到 Broker ，從 Broker ，取出工作來處理
 
-RabbitMQ: MQ 是訊息佇列 Message Queue 的縮寫，負責接收與轉發訊息(工作)，而 Broker 就是負責處理 MQ 的地方。是用 erlang 開發的AMQP，常見的 Broker 有 RabbitMQ, Redis, Kafka
+*RabbitMQ*: MQ 是訊息佇列 Message Queue 的縮寫，負責接收與轉發訊息(工作)，而 Broker 就是負責處理 MQ 的地方。是用 erlang 開發的AMQP，常見的 Broker 有 RabbitMQ, Redis, Kafka
 
 
 ## Install
@@ -20,7 +20,7 @@ RabbitMQ: MQ 是訊息佇列 Message Queue 的縮寫，負責接收與轉發訊�
 2. `pip install -r pkg.txt`
 
 
-## 設定 rabbit
+## Setting
 `rabbitmqctl add_user USER_NAME PASSWD`
 
 `rabbitmqctl set_user_tags USER_NAME administrator`
@@ -32,7 +32,7 @@ RabbitMQ: MQ 是訊息佇列 Message Queue 的縮寫，負責接收與轉發訊�
 
 上圖是三台機器(電腦)連線， Broker 負責將工作分配到這三台機器上
 
-## start
+## Start
 `rabbitmq-server`
 
 `python start.py`
