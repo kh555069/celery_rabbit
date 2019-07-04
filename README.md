@@ -11,11 +11,15 @@ Celery: 扮演著發送(Producer)以及處理(Worker)的角色，將工作發送
 RabbitMQ: MQ 是訊息佇列 Message Queue 的縮寫，負責接收與轉發訊息(工作)，而 Broker 就是負責處理 MQ 的地方。是用 erlang 開發的AMQP，常見的 Broker 有 RabbitMQ, Redis, Kafka
 
 
-
+## Install
 1. 安裝 RabbitMQ https://www.rabbitmq.com/download.html
+
 `sudo apt-get update`
+
 `sudo apt-get install erlang`
+
 `sudo apt-get install rabbitmq-server`
+
 
 2. `pip install -r pkg.txt`
 
