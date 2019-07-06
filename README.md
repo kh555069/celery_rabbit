@@ -9,7 +9,7 @@ RabbitMQ + Celery 分散式爬蟲
 
 ## Note
 RabbitMQ 有時候會突然吃掉太多資源， 執行 `rabbitmqctl shutdown` 關掉 RabbitMQ。<br></br>
-如果 `rabbitmqctl shutdown` 無效， 執行 `kill -9 $(ps axu | grep -e 'beam\.smp' | awk '{ print $2 }')` 強制關掉。
+如果 `rabbitmqctl shutdown` 無效，執行 `kill -9 $(ps -ef | grep -e 'beam\.smp' | awk '{ print $2 }')` 強制關掉。
 
 ## Installation
 1. 安裝 RabbitMQ https://www.rabbitmq.com/download.html<br></br>
